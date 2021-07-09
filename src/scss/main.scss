@@ -7,4 +7,7 @@ body {
   @include mq {
     background: orange;
   }
+  @include mq($width: 70rem) {
+    background: yellow;
+  }
 }
