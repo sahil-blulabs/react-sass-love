@@ -1,5 +1,5 @@
 # Readme
 
-This is simple simple sass with CRA.
+This is simple sass with CRA.
 
 ~ Sahil
