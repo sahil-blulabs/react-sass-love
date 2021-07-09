@@ -6,18 +6,15 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
-    "npm-run-all": "^4.1.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sass": "^1.35.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "run-p react:server sass:watch",
-    "react:server": "react-scripts start",
-    "sass:watch": "sass src/scss/main.scss src/css/styles.css --watch",
-    "build": "npm run build:sass && react-scripts build",
-    "build:sass": "sass src/scss/main.scss src/css/styles.css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
