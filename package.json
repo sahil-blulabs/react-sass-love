@@ -16,7 +16,8 @@
     "start": "run-p react:server sass:watch",
     "react:server": "react-scripts start",
     "sass:watch": "sass src/scss/main.scss src/css/styles.css --watch",
-    "build": "react-scripts build",
+    "build": "npm run build:sass && react-scripts build",
+    "build:sass": "sass src/scss/main.scss src/css/styles.css",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
