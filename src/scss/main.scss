@@ -1,0 +1,10 @@
+@use 'modules/mixins' as *;
+
+body {
+  padding: $size;
+  background: 2px solid pink;
+  @include bgred;
+  @include mq {
+    background: orange;
+  }
+}
