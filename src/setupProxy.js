@@ -2,7 +2,7 @@ const axios = require("axios");
 // NOTE: All below setup only works in development only, src: https://create-react-app.dev/docs/proxying-api-requests-in-development/
 
 function proxy(app) {
-  app.get(/^\/$/, (req, res) => res.redirect("/list")); //~by kent c dodds to map `/` route to `/list`.
+  // app.get(/^\/$/, (req, res) => res.redirect("/list")); //~by kent c dodds to map `/` route to `/list`.
   app.get("/ama1", async (req, res) => {
     const { data } = await axios({
       method: "get",
