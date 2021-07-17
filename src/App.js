@@ -10,18 +10,10 @@ export default function App() {
       <div>
         <button
           onClick={() => {
-            history("/ama1");
+            window.location.href = "/ama1";
           }}
         >
           Click me to go to /ama1
-        </button>
-        <br />
-        <button
-          onClick={() => {
-            history("/");
-          }}
-        >
-          Click me to go to /
         </button>
       </div>
     </div>
